@@ -10,9 +10,7 @@ import com.example.PuzzleInput;
 
 public class Day3 implements Puzzle {
 
-  private int supplier = 0;
-  private int x = 0;
-  private int y = 0;
+ 
   private ArrayList<String> puzzleInputArray;
   private HashMap<String, Integer> presentsInHouseCoord = new HashMap<>();
   

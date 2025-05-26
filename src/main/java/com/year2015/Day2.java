@@ -35,12 +35,6 @@ public class Day2 implements Puzzle {
         return totalArea;
     }
 
-    private int getSmallestArea(List<Integer> dimension) {
-        Collections.sort(dimension);
-        int length = dimension.get(0);
-        int width = dimension.get(1);
-        return length * width;
-    }
 
     private int getArea(List<Integer> dimension) {
         int area;
